@@ -1,24 +1,25 @@
 {
   "scriptVersion": 1,
-  "id": "xiaowa-test-v2",
+  "id": "xiaowa-test-v3",
   "title": "小蛙的手机",
-  "revision": 6,
+  "description": "专属小蛙剧情",
+  "revision": 9,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
     "time": "09:41",
     "battery": 85,
     "network": "5G",
-    "wallpaper": "apple-wwdc26",
-    "lock": {
-      "type": "password",
-      "password": "1024",
-      "hint": "最爱的人的生日"
-    }
+    "wallpaper": "apple-wwdc26"
   },
   "installedApps": [
-    "wechat",
-    "settings"
+    "appstore",
+    { "id": "wechat", "name": "微信", "installed": true, "visible": true },
+    { "id": "alipay", "name": "支付宝", "installed": true, "visible": true },
+    { "id": "messages", "name": "短信", "installed": true, "visible": true },
+    { "id": "notes", "name": "备忘录", "installed": true, "visible": true },
+    { "id": "instagram", "name": "Instagram", "installed": true, "visible": true },
+    { "id": "kakaotalk", "name": "KakaoTalk", "installed": true, "visible": true }
   ],
   "apps": {
     "wechat": {
@@ -32,19 +33,6 @@
             { "from": "chengzi", "text": "哦哦\n我有点想谈恋爱了", "time": "2026-09-01 09:02" },
             { "from": "me", "text": "不是，话题转移的这么快？", "time": "2026-09-01 09:03" },
             { "from": "chengzi", "text": "还好吧嘻嘻", "time": "2026-09-01 09:03" }
-          ]
-        }
-      ],
-      "interactions": [
-        {
-          "id": "test_interaction",
-          "conversationId": "chat_chengzi",
-          "condition": "true",
-          "options": [
-            {
-              "label": "其实我也有点……",
-              "value": "其实我也有点……"
-            }
           ]
         }
       ]
