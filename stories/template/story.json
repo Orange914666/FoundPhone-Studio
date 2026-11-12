@@ -1,25 +1,38 @@
 {
   "scriptVersion": 1,
-  "id": "xiaowa-test-v3",
+  "id": "xiaowa-final-story",
   "title": "小蛙的手机",
-  "description": "专属小蛙剧情",
-  "revision": 9,
+  "description": "送给小蛙的专属故事",
+  "revision": 15,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
     "time": "09:41",
     "battery": 85,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "apple-wwdc26",
+    "lock": {
+      "type": "password",
+      "password": "1024",
+      "hint": "最爱的人的生日"
+    }
   },
   "installedApps": [
     "appstore",
     { "id": "wechat", "name": "微信", "installed": true, "visible": true },
-    { "id": "alipay", "name": "支付宝", "installed": true, "visible": true },
     { "id": "messages", "name": "短信", "installed": true, "visible": true },
+    { "id": "alipay", "name": "支付宝", "installed": true, "visible": true },
     { "id": "notes", "name": "备忘录", "installed": true, "visible": true },
     { "id": "instagram", "name": "Instagram", "installed": true, "visible": true },
     { "id": "kakaotalk", "name": "KakaoTalk", "installed": true, "visible": true }
+  ],
+  "characters": [
+    { "id": "me", "name": "小蛙" },
+    { "id": "chengzi", "name": "橙子" },
+    { "id": "lihan", "name": "李涵" },
+    { "id": "mzx", "name": "明宰铉" },
+    { "id": "taishan", "name": "泰山" },
+    { "id": "wuhuarou", "name": "五花肉" }
   ],
   "apps": {
     "wechat": {
@@ -31,9 +44,84 @@
             { "from": "chengzi", "text": "我去闺蜜咋又开学了啊", "time": "2026-09-01 09:00" },
             { "from": "me", "text": "鬼鬼开学你就能见到我了你不开心吗？", "time": "2026-09-01 09:01" },
             { "from": "chengzi", "text": "哦哦\n我有点想谈恋爱了", "time": "2026-09-01 09:02" },
-            { "from": "me", "text": "不是，话题转移的这么快？", "time": "2026-09-01 09:03" },
-            { "from": "chengzi", "text": "还好吧嘻嘻", "time": "2026-09-01 09:03" }
+            { "from": "me", "text": "其实我也有点……", "time": "2026-09-01 09:05" },
+            { "from": "chengzi", "text": "当时和mzx分手的时候不是说再也不谈了吗？", "time": "2026-09-01 09:06" },
+            { "from": "me", "text": "甭管", "time": "2026-09-01 09:07" }
           ]
+        },
+        {
+          "id": "chat_lihan",
+          "name": "李涵",
+          "messages": [
+            { "from": "lihan", "text": "放学来吃饭？", "time": "2025-11-01 16:00" },
+            { "from": "me", "text": "嗯", "time": "2025-11-01 16:30" },
+            { "from": "lihan", "text": "祝她生日快乐", "time": "2026-10-24 18:00" },
+            { "from": "me", "text": "你不自己说？", "time": "2026-10-24 18:05" },
+            { "from": "lihan", "text": "和她没微信", "time": "2026-10-24 18:06" }
+          ]
+        },
+        {
+          "id": "chat_mzx",
+          "name": "明宰铉",
+          "messages": [
+            { "from": "mzx", "text": "生日快乐", "time": "2025-06-26 00:00" },
+            { "from": "me", "text": "谢谢呀～", "time": "2025-06-26 08:00" },
+            { "from": "mzx", "text": "分手的话我就去死", "time": "2026-04-20 19:08" },
+            { "from": "me", "text": "随你", "time": "2026-04-20 19:10" },
+            { "from": "mzx", "text": "现在我们是同桌了还要装不熟吗？", "time": "2026-09-01 16:30" }
+          ]
+        },
+        {
+          "id": "chat_group",
+          "name": "一家人",
+          "messages": [
+            { "from": "taishan", "text": "亲子鉴定结果出来了\n我们是他的亲生父母", "time": "2026-10-26 12:00" },
+            { "from": "me", "text": "我草那怎么办？", "time": "2026-10-26 12:01" },
+            { "from": "wuhuarou", "text": "宝宝本来就是爸爸妈妈生的呀", "time": "2026-10-26 12:02" }
+          ]
+        }
+      ],
+      "interactions": [
+        {
+          "id": "test_reply",
+          "conversationId": "chat_chengzi",
+          "condition": "true",
+          "options": [
+            { "label": "闺蜜我不行了", "value": "闺蜜我不行了" }
+          ]
+        }
+      ]
+    },
+    "kakaotalk": {
+      "conversations": [
+        {
+          "id": "kkt_taishan",
+          "name": "韩泰山",
+          "messages": [
+            { "from": "taishan", "text": "在吗\n周五下午六点来我们社团", "time": "2026-10-25 11:00" },
+            { "from": "me", "text": "好ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧", "time": "2026-10-25 11:01" }
+          ]
+        }
+      ]
+    },
+    "alipay": {
+      "messages": [
+        {
+          "id": "alipay_mzx",
+          "name": "明宰铉",
+          "messages": [
+            { "type": "transfer", "amount": "10000.00", "note": "自愿赠与", "time": "2026-10-25 09:45" }
+          ]
+        }
+      ]
+    },
+    "notes": {
+      "notes": [
+        {
+          "id": "note_1",
+          "title": "无标题",
+          "content": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！我怎么办，我该怎么办，嗯先顺着他吧，别再惹他不开心了……",
+          "time": "2026-10-25 18:00"
         }
       ]
     }
