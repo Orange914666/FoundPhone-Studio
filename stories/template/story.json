@@ -1,699 +1,165 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "xiaowa-full-history",
+  "title": "小蛙的手机",
+  "description": "全量历史记录版",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
+    "owner": "小蛙",
     "date": "2026-10-25",
     "time": "09:41",
-    "battery": 94,
+    "battery": 85,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "apple-wwdc26",
+    "lock": {
+      "type": "password",
+      "password": "1024",
+      "hint": "最爱的人的生日"
+    }
   },
   "installedApps": [
     "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    "phone",
-    "messages",
-    "contacts",
-    "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
-    "safari",
-    "notes",
-    "calendar",
-    "mail",
-    "clock",
-    "reminders",
-    "files",
-    "music",
-    "maps",
-    "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
-    "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    { "id": "wechat", "name": "微信", "installed": true, "visible": true },
+    { "id": "alipay", "name": "支付宝", "installed": true, "visible": true },
+    { "id": "instagram", "name": "Instagram", "installed": true, "visible": true },
+    { "id": "kakaotalk", "name": "KakaoTalk", "installed": true, "visible": true }
   ],
-  "contacts": [
-    {
-      "id": "test-contact",
-      "name": "测试联系人",
-      "phone": "",
-      "bio": "这是一条测试内容。"
-    }
+  "characters": [
+    { "id": "me", "name": "小蛙" },
+    { "id": "chengzi", "name": "橙子" },
+    { "id": "lihan", "name": "李涵" },
+    { "id": "mzx", "name": "不熟" }
   ],
-  "chats": [
-    {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
+  "apps": {
+    "wechat": {
+      "conversations": [
         {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "chat_chengzi",
+          "name": "橙子",
+          "messages": [
+            { "from": "chengzi", "text": "我去闺蜜咋又开学了啊", "time": "2026-09-01 09:00" },
+            { "from": "me", "text": "鬼鬼开学你就能见到我了你不开心吗？", "time": "2026-09-01 09:01" },
+            { "from": "chengzi", "text": "哦哦\n我有点想谈恋爱了", "time": "2026-09-01 09:02" },
+            { "from": "me", "text": "不是，话题转移的这么快？", "time": "2026-09-01 09:03" },
+            { "from": "chengzi", "text": "还好吧嘻嘻", "time": "2026-09-01 09:03" },
+            { "from": "me", "text": "其实我也有点……", "time": "2026-09-01 09:05" },
+            { "from": "chengzi", "text": "当时和mzx分手的时候不是说再也不谈了吗？", "time": "2026-09-01 09:06" },
+            { "from": "me", "text": "甭管", "time": "2026-09-01 09:07" },
+            { "from": "me", "text": "我草我服了闺蜜\n完蛋了", "time": "2026-09-01 14:34" },
+            { "from": "chengzi", "text": "？", "time": "2026-09-01 14:35" },
+            { "from": "me", "text": "老师调座位\nMzx\n成我同桌了", "time": "2026-09-01 14:35" },
+            { "from": "chengzi", "text": "我靠笑死我了呀\n两个月不见他有没有啥变化", "time": "2026-09-01 14:40" },
+            { "from": "me", "text": "没看\n谁想看他啊", "time": "2026-09-01 14:42" },
+            { "from": "chengzi", "text": "我到家了闺蜜\n我草闺蜜我和你说\n咱们学校这届的新生\n有个人好萌啊", "time": "2026-09-01 21:14" },
+            { "from": "me", "text": "？。\n男的女的？", "time": "2026-09-01 21:15" },
+            { "from": "chengzi", "text": "当然是男的了", "time": "2026-09-01 21:16" },
+            { "from": "me", "text": "男的就好？", "time": "2026-09-01 21:16" },
+            { "from": "chengzi", "text": "？\n我说真的\n我感觉好可爱啊闺蜜我完蛋了", "time": "2026-09-01 21:17" },
+            { "from": "me", "text": "天这么黑能看清啥啊", "time": "2026-09-01 21:18" },
+            { "from": "chengzi", "text": "🙄", "time": "2026-09-01 21:19" },
+            { "from": "me", "text": "闺蜜这学期你要参加啥社团啊", "time": "2026-09-04 12:00" },
+            { "from": "chengzi", "text": "烦死了为啥要强制参加\n哎那我看看吧\n你想参加啥", "time": "2026-09-04 12:05" },
+            { "from": "me", "text": "我也不知道 要不就随机吧等着", "time": "2026-09-04 12:06" },
+            { "from": "chengzi", "text": "也是个好主意", "time": "2026-09-04 12:10" },
+            { "from": "chengzi", "text": "天塌了\n数学社团是啥意思？", "time": "2026-09-10 10:00" },
+            { "from": "me", "text": "我靠闺蜜我咋也是啊\n都怪你说什么随机分配\n没人参加数学社团\n咱这些没选的可能都被分配进来了", "time": "2026-09-10 10:05" },
+            { "from": "me", "text": "我错了闺蜜。。。。", "time": "2026-09-10 10:06" },
+            { "from": "chengzi", "text": "闺蜜有个消息\n我打听到了\n那个小学弟参加的是乐队社团\n哇塞哇塞哇塞反差啊！", "time": "2026-09-11 18:00" },
+            { "from": "me", "text": "闺你咋还盯着人家呢\n你真对人家有意思啊", "time": "2026-09-11 18:05" },
+            { "from": "chengzi", "text": "甭管\n还有就是 那个乐队社团里面就六个人\n选出来了六个有实力的人\n你猜怎么着\n你前男友也在里面", "time": "2026-09-11 18:10" },
+            { "from": "me", "text": "？不是他凭什么", "time": "2026-09-11 18:12" },
+            { "from": "chengzi", "text": "那我就不知道了\n不过都挺帅的\n你前男友除外好吧\n有时间可以一起去看看嘿嘿嘿", "time": "2026-09-11 18:15" },
+            { "from": "me", "text": "你就是想看那小学弟吧……", "time": "2026-09-11 18:20" },
+            { "from": "me", "text": "闺蜜生日快乐！！！！！！！！最爱你了", "time": "2026-10-24 00:00" },
+            { "from": "chengzi", "text": "我也是闺蜜爱你老闺白天见", "time": "2026-10-24 00:01" }
+          ]
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "chat_lihan",
+          "name": "李涵",
+          "messages": [
+            { "from": "lihan", "text": "放学来我家吃饭 你妈妈打电话说的", "time": "2025-10-12 15:00" },
+            { "from": "me", "text": "嗯好", "time": "2025-10-12 15:05" },
+            { "from": "lihan", "text": "放学来我家吃饭 你妈妈打电话说的", "time": "2025-10-24 15:00" },
+            { "from": "me", "text": "今天不了 橙子生日", "time": "2025-10-24 15:05" },
+            { "from": "lihan", "text": "嗯 帮我祝她生日快乐", "time": "2025-10-24 15:06" },
+            { "from": "lihan", "text": "放学来吃饭？", "time": "2025-11-01 16:00" },
+            { "from": "me", "text": "嗯", "time": "2025-11-01 16:30" },
+            { "from": "lihan", "text": "放学来？", "time": "2025-11-27 16:00" },
+            { "from": "me", "text": "嗯", "time": "2025-11-27 16:40" },
+            { "from": "lihan", "text": "？", "time": "2025-12-03 16:00" },
+            { "from": "me", "text": "嗯", "time": "2025-12-03 16:50" },
+            { "from": "lihan", "text": "？", "time": "2025-12-22 16:00" },
+            { "from": "me", "text": "嗯", "time": "2025-12-22 16:20" },
+            { "from": "lihan", "text": "？", "time": "2026-03-06 16:00" },
+            { "from": "me", "text": "嗯", "time": "2026-03-06 16:30" },
+            { "from": "me", "text": "今天来我家吧 你家长不在家", "time": "2026-03-14 15:00" },
+            { "from": "lihan", "text": "嗯", "time": "2026-03-14 15:10" },
+            { "from": "lihan", "text": "？", "time": "2026-04-28 16:00" },
+            { "from": "me", "text": "嗯", "time": "2026-04-28 16:45" },
+            { "from": "lihan", "text": "？", "time": "2026-06-01 16:00" },
+            { "from": "me", "text": "嗯", "time": "2026-06-01 16:20" },
+            { "from": "lihan", "text": "？", "time": "2026-06-24 16:00" },
+            { "from": "me", "text": "嗯", "time": "2026-06-24 16:30" },
+            { "from": "lihan", "text": "数学社团？", "time": "2026-09-11 18:30" },
+            { "from": "me", "text": "我其实还挺有实力的\n你是啥", "time": "2026-09-11 18:31" },
+            { "from": "lihan", "text": "乐队", "time": "2026-09-11 18:32" },
+            { "from": "me", "text": "你怎么也？？", "time": "2026-09-11 18:32" },
+            { "from": "lihan", "text": "我其实还挺有实力的", "time": "2026-09-11 18:33" },
+            { "from": "me", "text": "哦好", "time": "2026-09-11 18:35" },
+            { "from": "me", "text": "来我家", "time": "2026-09-24 15:00" },
+            { "from": "lihan", "text": "嗯", "time": "2026-09-24 15:05" },
+            { "from": "lihan", "text": "？", "time": "2026-10-02 16:00" },
+            { "from": "me", "text": "嗯", "time": "2026-10-02 16:30" },
+            { "from": "lihan", "text": "祝她生日快乐", "time": "2026-10-24 18:00" },
+            { "from": "me", "text": "你不自己说？", "time": "2026-10-24 18:05" },
+            { "from": "lihan", "text": "和她没微信", "time": "2026-10-24 18:06" }
+          ]
+        },
+        {
+          "id": "chat_mzx",
+          "name": "不熟",
+          "messages": [
+            { "from": "mzx", "text": "生日快乐", "time": "2025-06-26 00:00" },
+            { "from": "me", "text": "谢谢呀～", "time": "2025-06-26 08:00" },
+            { "from": "mzx", "text": "今天可以出来么？小寿星\n请你吃饭好不好\n给你买蛋糕\n顺便……还有话对你说", "time": "2025-06-26 09:00" },
+            { "from": "me", "text": "可以的 不过中午要和家长吃饭 晚上可以吗", "time": "2025-06-26 09:30" },
+            { "from": "mzx", "text": "好", "time": "2025-06-26 09:31" },
+            { "from": "me", "text": "谢谢你 送我回家 花很漂亮", "time": "2025-06-26 20:01" },
+            { "from": "mzx", "text": "不客气 我爱你^^", "time": "2025-06-26 20:02" },
+            { "from": "me", "text": "呀……太快了吧", "time": "2025-06-26 20:03" },
+            { "from": "mzx", "text": "好可爱……得快点熟悉一下啊～", "time": "2025-06-26 20:05" },
+            { "from": "me", "text": "我还没说明白吗？", "time": "2026-04-20 19:00" },
+            { "from": "mzx", "text": "那我说的你难道也没明白吗？\n我说不分", "time": "2026-04-20 19:01" },
+            { "from": "me", "text": "你说的算吗？\n分手一个人决定就好了", "time": "2026-04-20 19:02" },
+            { "from": "mzx", "text": "你太自私了", "time": "2026-04-20 19:05" },
+            { "from": "me", "text": "随便吧", "time": "2026-04-20 19:06" },
+            { "from": "mzx", "text": "分手的话我就去死", "time": "2026-04-20 19:08" },
+            { "from": "me", "text": "随你", "time": "2026-04-20 19:10" },
+            { "from": "mzx", "text": "复合", "time": "2026-04-21 08:00" },
+            { "from": "me", "text": "居然没死？", "time": "2026-04-21 08:30" },
+            { "from": "mzx", "text": "这么想让我死？", "time": "2026-04-21 08:31" },
+            { "from": "mzx", "text": "复合", "time": "2026-04-22 12:00" },
+            { "from": "mzx", "text": "复合", "time": "2026-04-23 12:00" },
+            { "from": "mzx", "text": "复合", "time": "2026-05-20 12:00" },
+            { "from": "mzx", "text": "复合", "time": "2026-06-01 12:00" },
+            { "from": "mzx", "text": "复合", "time": "2026-07-01 12:00" },
+            { "from": "mzx", "text": "现在我们是同桌了还要装不熟吗？", "time": "2026-09-01 16:30" },
+            { "from": "mzx", "text": "你选啥社团？", "time": "2026-09-10 12:00" }
+          ]
+        }
+      ]
+    },
+    "alipay": {
+      "messages": [
+        {
+          "id": "chat_alipay",
+          "name": "明宰铉",
+          "messages": [
+            { "type": "transfer", "amount": "10000.00", "note": "自愿赠与", "time": "2026-10-25 09:45" }
+          ]
         }
       ]
     }
-  ],
-  "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "photos": [
-      {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "notes": [
-      {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calendar": [
-      {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
-      {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
-      }
-    ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
-      }
-    ]
-  },
-  "variables": {},
-  "events": [],
-  "tests": []
+  }
 }
