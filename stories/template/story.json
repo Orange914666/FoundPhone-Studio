@@ -1,14 +1,13 @@
 {
   "scriptVersion": 1,
-  "id": "xiaowa-test-v11",
+  "id": "xiaowa-test-short",
   "title": "小蛙的手机",
-  "description": "专属测试",
-  "revision": 80,
+  "revision": 1,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
     "time": "09:41",
-    "battery": 94,
+    "battery": 85,
     "network": "5G",
     "wallpaper": "apple-wwdc26",
     "lock": {
@@ -19,51 +18,18 @@
   },
   "installedApps": [
     "appstore",
-    "messages",
-    "notes",
-    "alipay",
-    { "id": "wechat", "name": "微信", "installed": true, "visible": true, "dock": true, "folder": "", "icon": "" },
-    { "id": "instagram", "name": "Instagram", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" },
-    { "id": "kakao", "name": "KakaoTalk", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" }
-  ],
-  "contacts": [
-    { "id": "chengzi", "name": "橙子", "phone": "", "bio": "" },
-    { "id": "mzx", "name": "不熟", "phone": "", "bio": "" },
-    { "id": "taishan", "name": "泰山", "phone": "", "bio": "" }
-  ],
-  "chats": [
+    "settings",
     {
-      "id": "chat-chengzi",
-      "app": "wechat",
-      "title": "橙子",
-      "participants": ["owner", "chengzi"],
-      "messages": [
-        { "id": "c1", "body": "我去闺蜜咋又开学了啊", "senderId": "chengzi" },
-        { "id": "c2", "body": "鬼鬼开学你就能见到我了你不开心吗？", "senderId": "owner" }
-      ]
-    },
-    {
-      "id": "chat-mzx",
-      "app": "wechat",
-      "title": "不熟",
-      "participants": ["owner", "mzx"],
-      "messages": [
-        { "id": "m1", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" }
-      ]
+      "id": "wechat",
+      "name": "微信",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
     }
   ],
-  "content": {
-    "messages": [
-      { "id": "msg-1", "title": "系统提示", "body": "去抖音小红书微博搜搜看，最后手滑关注了。", "sender": "系统", "kind": "text", "meta": {} }
-    ],
-    "notes": [
-      { "id": "note-1", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！", "sender": "小蛙", "kind": "text", "meta": {} }
-    ],
-    "alipay": [
-      { "id": "ali-1", "title": "明宰铉", "body": "向你转账 10000.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} }
-    ],
-    "instagram": [
-      { "id": "ig-1", "title": "ttteasan", "body": "[照片] [照片] [照片]", "sender": "ttteasan", "kind": "text", "meta": {} }
-    ]
-  }
+  "contacts": [],
+  "chats": [],
+  "content": {}
 }
