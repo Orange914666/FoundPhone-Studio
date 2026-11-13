@@ -1,9 +1,9 @@
 {
   "scriptVersion": 1,
-  "id": "xiaowa-test-v9",
+  "id": "xiaowa-test-v10",
   "title": "小蛙的手机",
   "description": "专属剧情测试",
-  "revision": 66,
+  "revision": 70,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
@@ -22,13 +22,14 @@
     "messages",
     "notes",
     "settings",
+    "photos",
+    "douyin",
+    "redbook",
+    "weibo",
     { "id": "wechat", "name": "微信", "installed": true, "visible": true, "dock": true, "folder": "", "icon": "" },
     { "id": "alipay", "name": "支付宝", "installed": true, "visible": true, "dock": true, "folder": "", "icon": "" },
     { "id": "instagram", "name": "Instagram", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" },
-    { "id": "kakao", "name": "KakaoTalk", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" },
-    { "id": "douyin", "name": "抖音", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" },
-    { "id": "redbook", "name": "小红书", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" },
-    { "id": "weibo", "name": "微博", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" }
+    { "id": "kakao", "name": "KakaoTalk", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" }
   ],
   "contacts": [
     { "id": "chengzi", "name": "橙子", "phone": "", "bio": "" },
@@ -44,7 +45,9 @@
       "participants": ["owner", "chengzi"],
       "messages": [
         { "id": "c1", "body": "我去闺蜜咋又开学了啊", "senderId": "chengzi" },
-        { "id": "c2", "body": "鬼鬼开学你就能见到我了你不开心吗？", "senderId": "owner" }
+        { "id": "c2", "body": "鬼鬼开学你就能见到我了你不开心吗？", "senderId": "owner" },
+        { "id": "c3", "body": "其实我也有点……", "senderId": "owner" },
+        { "id": "c4", "body": "当时和mzx分手的时候不是说再也不谈了吗？", "senderId": "chengzi" }
       ]
     },
     {
@@ -53,7 +56,9 @@
       "title": "不熟",
       "participants": ["owner", "mzx"],
       "messages": [
-        { "id": "m1", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" }
+        { "id": "m1", "body": "分手的话我就去死", "senderId": "mzx" },
+        { "id": "m2", "body": "随你", "senderId": "owner" },
+        { "id": "m3", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" }
       ]
     },
     {
@@ -62,7 +67,8 @@
       "title": "韩泰山",
       "participants": ["owner", "taishan"],
       "messages": [
-        { "id": "t1", "body": "在吗\n周五下午六点来我们社团", "senderId": "taishan" }
+        { "id": "t1", "body": "在吗\n周五下午六点来我们社团", "senderId": "taishan" },
+        { "id": "t2", "body": "好ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧", "senderId": "owner" }
       ]
     }
   ],
@@ -71,7 +77,7 @@
       { "id": "msg-1", "title": "系统提示", "body": "我靠手滑了。", "sender": "系统", "kind": "text", "meta": {} }
     ],
     "notes": [
-      { "id": "note-1", "title": "无标题", "body": "还是和他复合了……感觉再不复合他就要把我身边人都骚扰一遍了。", "sender": "小蛙", "kind": "text", "meta": {} }
+      { "id": "note-1", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！", "sender": "小蛙", "kind": "text", "meta": {} }
     ],
     "alipay": [
       { "id": "ali-1", "title": "明宰铉", "body": "向你转账 10000.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} }
@@ -80,13 +86,13 @@
       { "id": "ig-1", "title": "ttteasan", "body": "[照片] [照片] [照片]", "sender": "ttteasan", "kind": "text", "meta": {} }
     ],
     "douyin": [
-      { "id": "dy-1", "title": "搜索：ttteasan", "body": "找到了 ttteasan 的抖音账号。\n（这里不能点关注哦）", "sender": "抖音", "kind": "text", "meta": {} }
+      { "id": "dy-1", "title": "搜索ttteasan", "body": "找到了账号（这里不能点关注哦）", "sender": "抖音", "kind": "text", "meta": {} }
     ],
     "redbook": [
-      { "id": "xhs-1", "title": "搜索：ttteasan", "body": "找到了 ttteasan 的小红书账号。\n（还是不能点关注！）", "sender": "小红书", "kind": "text", "meta": {} }
+      { "id": "xhs-1", "title": "搜索ttteasan", "body": "找到了账号（还是不能点关注！）", "sender": "小红书", "kind": "text", "meta": {} }
     ],
     "weibo": [
-      { "id": "wb-1", "title": "搜索：ttteasan", "body": "找到了 ttteasan 的微博账号。\n❗️系统强制：自动关注成功！", "sender": "微博", "kind": "text", "meta": {} }
+      { "id": "wb-1", "title": "搜索ttteasan", "body": "找到了账号。\n❗️系统强制：自动关注成功！", "sender": "微博", "kind": "text", "meta": {} }
     ]
   }
 }
