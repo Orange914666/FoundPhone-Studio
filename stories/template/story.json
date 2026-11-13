@@ -1,13 +1,16 @@
 {
   "scriptVersion": 1,
-  "id": "xiaowa-demo",
+  "id": "xiaowa-ultimate",
   "title": "小蛙的手机",
-  "revision": 99,
+  "description": "小蛙的专属故事",
+  "revision": 100,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
     "time": "09:41",
-    "wallpaper": "silver",
+    "battery": 94,
+    "network": "5G",
+    "wallpaper": "apple-wwdc26",
     "lock": {
       "type": "password",
       "password": "1024",
@@ -16,18 +19,48 @@
   },
   "installedApps": [
     "appstore",
+    {
+      "id": "wechat",
+      "name": "微信",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    "phone",
     "messages",
+    "contacts",
     "photos",
-    "notes",
     "safari",
+    "notes",
     "settings",
-    { "id": "wechat", "name": "微信", "installed": true, "visible": true, "dock": true, "folder": "", "icon": "" },
-    { "id": "alipay", "name": "支付宝", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" },
-    { "id": "instagram", "name": "Instagram", "installed": true, "visible": true, "dock": false, "folder": "", "icon": "" }
+    "weibo",
+    "redbook",
+    "bilibili",
+    "alipay",
+    "instagram",
+    "kakao"
   ],
   "contacts": [
-    { "id": "chengzi", "name": "橙子", "phone": "", "bio": "" },
-    { "id": "mzx", "name": "不熟", "phone": "", "bio": "" }
+    {
+      "id": "chengzi",
+      "name": "橙子",
+      "phone": "",
+      "bio": ""
+    },
+    {
+      "id": "mzx",
+      "name": "不熟",
+      "phone": "",
+      "bio": ""
+    },
+    {
+      "id": "taishan",
+      "name": "泰山",
+      "phone": "",
+      "bio": ""
+    }
   ],
   "chats": [
     {
@@ -37,8 +70,7 @@
       "participants": ["owner", "chengzi"],
       "messages": [
         { "id": "c1", "body": "我去闺蜜咋又开学了啊", "senderId": "chengzi" },
-        { "id": "c2", "body": "鬼鬼开学你就能见到我了你不开心吗？", "senderId": "owner" },
-        { "id": "c3", "body": "其实我也有点……", "senderId": "owner" }
+        { "id": "c2", "body": "鬼鬼开学你就能见到我了你不开心吗？", "senderId": "owner" }
       ]
     },
     {
@@ -47,20 +79,43 @@
       "title": "不熟",
       "participants": ["owner", "mzx"],
       "messages": [
-        { "id": "m1", "body": "分手的话我就去死", "senderId": "mzx" },
-        { "id": "m2", "body": "随你", "senderId": "owner" }
+        { "id": "m1", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" }
+      ]
+    },
+    {
+      "id": "chat-taishan-kkt",
+      "app": "kakao",
+      "title": "韩泰山",
+      "participants": ["owner", "taishan"],
+      "messages": [
+        { "id": "t1", "body": "在吗\n周五下午六点来我们社团", "senderId": "taishan" }
       ]
     }
   ],
   "content": {
-    "messages": [
-      { "id": "msg-1", "title": "系统", "body": "我靠手滑了。", "sender": "系统", "kind": "text", "meta": {} }
+    "wechat": [
+      { "id": "w1", "title": "系统", "body": "我靠手滑了。", "sender": "系统", "kind": "text", "meta": {} }
     ],
     "notes": [
-      { "id": "note-1", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机！", "sender": "小蛙", "kind": "text", "meta": {} }
+      { "id": "n1", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！", "sender": "小蛙", "kind": "text", "meta": {} }
     ],
     "alipay": [
-      { "id": "ali-1", "title": "明宰铉", "body": "向你转账 10000.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} }
+      { "id": "a1", "title": "明宰铉", "body": "向你转账 10000.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} }
+    ],
+    "instagram": [
+      { "id": "i1", "title": "ttteasan", "body": "[照片] [照片] [照片]", "sender": "ttteasan", "kind": "text", "meta": {} }
+    ],
+    "weibo": [
+      { "id": "wb1", "title": "搜索ttteasan", "body": "找到了 ttteasan 的微博账号！", "sender": "微博", "kind": "text", "meta": {} }
+    ],
+    "redbook": [
+      { "id": "rb1", "title": "搜索ttteasan", "body": "找到了 ttteasan 的小红书账号！", "sender": "小红书", "kind": "text", "meta": {} }
+    ],
+    "bilibili": [
+      { "id": "bl1", "title": "搜索ttteasan", "body": "找到了 ttteasan 的B站账号！\n❗️系统强制自动关注成功！", "sender": "B站", "kind": "text", "meta": {} }
     ]
-  }
+  },
+  "variables": {},
+  "events": [],
+  "tests": []
 }
