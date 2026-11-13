@@ -1,9 +1,9 @@
 {
   "scriptVersion": 1,
-  "id": "xiaowa-final-ultimate",
+  "id": "xiaowa-final-v6",
   "title": "小蛙的手机",
   "description": "送给小蛙的专属故事",
-  "revision": 50,
+  "revision": 60,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
@@ -30,8 +30,8 @@
   "contacts": [
     { "id": "chengzi", "name": "橙子", "phone": "", "bio": "" },
     { "id": "lihan", "name": "李涵", "phone": "", "bio": "" },
-    { "id": "mzx", "name": "不熟", "phone": "", "bio": "" },
-    { "id": "taishan", "name": "泰山", "phone": "", "bio": "" },
+    { "id": "mzx", "name": "明宰铉", "phone": "", "bio": "" },
+    { "id": "taishan", "name": "韩泰山", "phone": "", "bio": "" },
     { "id": "yunhe", "name": "金云鹤", "phone": "", "bio": "" },
     { "id": "taluo", "name": "塔罗🔮🍊", "phone": "", "bio": "" },
     { "id": "wuhuarou", "name": "五花肉", "phone": "", "bio": "" }
@@ -45,9 +45,10 @@
       "messages": [
         { "id": "c1", "body": "我去闺蜜咋又开学了啊", "senderId": "chengzi" },
         { "id": "c2", "body": "鬼鬼开学你就能见到我了你不开心吗？", "senderId": "owner" },
-        { "id": "c3", "body": "我有点想谈恋爱了", "senderId": "chengzi" },
-        { "id": "c4", "body": "当时和mzx分手的时候不是说再也不谈了吗？", "senderId": "chengzi" },
-        { "id": "c5", "body": "甭管", "senderId": "owner" }
+        { "id": "c3", "body": "哦哦\n我有点想谈恋爱了", "senderId": "chengzi" },
+        { "id": "c4", "body": "其实我也有点……", "senderId": "owner" },
+        { "id": "c5", "body": "当时和mzx分手的时候不是说再也不谈了吗？", "senderId": "chengzi" },
+        { "id": "c6", "body": "甭管", "senderId": "owner" }
       ]
     },
     {
@@ -59,7 +60,8 @@
         { "id": "l1", "body": "放学来吃饭？", "senderId": "lihan" },
         { "id": "l2", "body": "嗯", "senderId": "owner" },
         { "id": "l3", "body": "祝她生日快乐", "senderId": "lihan" },
-        { "id": "l4", "body": "和她没微信", "senderId": "lihan" }
+        { "id": "l4", "body": "你不自己说？", "senderId": "owner" },
+        { "id": "l5", "body": "和她没微信", "senderId": "lihan" }
       ]
     },
     {
@@ -68,33 +70,22 @@
       "title": "不熟",
       "participants": ["owner", "mzx"],
       "messages": [
-        { "id": "m1", "body": "分手的话我就去死", "senderId": "mzx" },
-        { "id": "m2", "body": "随你", "senderId": "owner" },
-        { "id": "m3", "body": "复合", "senderId": "mzx" },
-        { "id": "m4", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" }
+        { "id": "m1", "body": "生日快乐", "senderId": "mzx" },
+        { "id": "m2", "body": "谢谢呀～", "senderId": "owner" },
+        { "id": "m3", "body": "分手的话我就去死", "senderId": "mzx" },
+        { "id": "m4", "body": "随你", "senderId": "owner" },
+        { "id": "m5", "body": "复合", "senderId": "mzx" },
+        { "id": "m6", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" }
       ]
     },
     {
-      "id": "chat-group",
-      "app": "wechat",
-      "title": "一家人",
-      "participants": ["owner", "taishan", "wuhuarou"],
-      "messages": [
-        { "id": "g1", "body": "亲子鉴定结果出来了\n我们是他的亲生父母", "senderId": "taishan" },
-        { "id": "g2", "body": "我草那怎么办？", "senderId": "owner" },
-        { "id": "g3", "body": "宝宝本来就是爸爸妈妈生的呀", "senderId": "wuhuarou" },
-        { "id": "g4", "body": "爸爸你平时不这样啊，你平时会一直粘着妈妈然后一直亲亲妈妈", "senderId": "wuhuarou" },
-        { "id": "g5", "body": "好了好了好了", "senderId": "owner" }
-      ]
-    },
-    {
-      "id": "chat-taishan-kkt",
+      "id": "chat-taishan",
       "app": "kakao",
       "title": "韩泰山",
       "participants": ["owner", "taishan"],
       "messages": [
         { "id": "t1", "body": "在吗\n周五下午六点来我们社团", "senderId": "taishan" },
-        { "id": "t2", "body": "好ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧", "senderId": "owner" },
+        { "id": "t2", "body": "好ദ്ദി(˵ •̀ ᗜ - ˵ ) ✧", "senderId": "owner" },
         { "id": "t3", "body": "宝宝\n我永远爱你啊\n我们永远不会分开的", "senderId": "taishan" }
       ]
     },
@@ -106,26 +97,22 @@
       "messages": [
         { "id": "y1", "body": "小蛙 我们明天有演出\n你来不来\n你男朋友现在有事情所以让我问问你", "senderId": "yunhe" },
         { "id": "y2", "body": "去！", "senderId": "owner" },
-        { "id": "y3", "body": "好 小美说她也来", "senderId": "yunhe" },
-        { "id": "y4", "body": "小美是谁？", "senderId": "owner" },
-        { "id": "y5", "body": "啊？我女朋友啊\n你们不是好闺蜜吗", "senderId": "yunhe" }
+        { "id": "y3", "body": "好 小美说她也来", "senderId": "yunhe" }
       ]
     },
     {
-      "id": "chat-taluo-ig",
+      "id": "chat-taluo",
       "app": "instagram",
       "title": "塔罗🔮🍊",
       "participants": ["owner", "taluo"],
       "messages": [
-        { "id": "tu1", "body": "您好\n关注我是想了解一下什么呢？", "senderId": "taluo" },
-        { "id": "tu2", "body": "我感觉这段时间记忆有点混乱", "senderId": "owner" },
-        { "id": "tu3", "body": "所以？想让我帮你看看是不是有什么东西被你遗忘了？", "senderId": "taluo" }
+        { "id": "tu1", "body": "您好\n关注我是想了解一下什么呢？", "senderId": "taluo" }
       ]
     }
   ],
   "content": {
     "messages": [
-      { "id": "msg-1", "title": "系统通知", "body": "恭喜玩家🎉玩到大结局啦～\n番外板块\n现在有以下几个番外可以选择\n(ps：这里要认真选择哦，因为想要玩其他番外需要重头再玩一遍呢～)\n①：在天愿作比翼鸟，在地......\n②：额对的对的对的额不对不对不对\n③：你知道的，这个夏天永远不会结束", "sender": "系统", "kind": "text", "meta": {} }
+      { "id": "msg-1", "title": "系统通知", "body": "恭喜玩家🎉玩到大结局啦～\n番外板块\n现在有以下几个番外可以选择\n①：在天愿作比翼鸟，在地......\n②：额对的对的对的额不对不对不对\n③：你知道的，这个夏天永远不会结束", "sender": "系统", "kind": "text", "meta": {} }
     ],
     "notes": [
       { "id": "note-1", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！我怎么办，我该怎么办，嗯先顺着他吧，别再惹他不开心了……", "sender": "小蛙", "kind": "text", "meta": {} },
