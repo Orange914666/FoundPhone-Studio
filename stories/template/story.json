@@ -1,21 +1,16 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
+  "id": "xiaowa-ultimate-v2",
   "title": "小蛙的手机",
-  "description": "送给小蛙的专属故事",
-  "revision": 100,
+  "description": "小蛙的专属故事",
+  "revision": 101,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26",
-    "lock": {
-      "type": "password",
-      "password": "1024",
-      "hint": "最爱的人的生日"
-    }
+    "wallpaper": "apple-wwdc26"
   },
   "installedApps": [
     "appstore",
@@ -24,7 +19,7 @@
       "name": "微信",
       "installed": true,
       "visible": true,
-      "dock": false,
+      "dock": true,
       "folder": "",
       "icon": ""
     },
