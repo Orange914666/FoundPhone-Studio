@@ -1,8 +1,8 @@
 {
   "scriptVersion": 1,
-  "id": "xiaowa-ultimate",
+  "id": "ui-test-phone-v2",
   "title": "小蛙的手机",
-  "description": "小蛙的专属故事",
+  "description": "送给小蛙的专属故事",
   "revision": 100,
   "phone": {
     "owner": "小蛙",
@@ -24,7 +24,16 @@
       "name": "微信",
       "installed": true,
       "visible": true,
-      "dock": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "installed": true,
+      "visible": true,
+      "dock": false,
       "folder": "",
       "icon": ""
     },
@@ -32,35 +41,61 @@
     "messages",
     "contacts",
     "photos",
+    {
+      "id": "camera",
+      "name": "相机",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
     "safari",
     "notes",
+    "calendar",
+    "mail",
+    "clock",
+    "reminders",
+    "files",
+    "music",
+    "maps",
+    "weather",
+    "wallet",
+    "health",
+    "find",
+    "calculator",
     "settings",
+    "qq",
     "weibo",
     "redbook",
     "bilibili",
     "alipay",
+    "taobao",
+    "netease",
+    "delivery",
+    "forum",
+    "whatsapp",
     "instagram",
+    "tiktok",
+    "twitter",
+    "telegram",
+    "discord",
+    "youtube",
+    "line",
+    "snapchat",
+    "facebook",
+    "messenger",
+    "reddit",
+    "spotify",
+    "netflix",
+    "pinterest",
+    "threads",
     "kakao"
   ],
   "contacts": [
-    {
-      "id": "chengzi",
-      "name": "橙子",
-      "phone": "",
-      "bio": ""
-    },
-    {
-      "id": "mzx",
-      "name": "不熟",
-      "phone": "",
-      "bio": ""
-    },
-    {
-      "id": "taishan",
-      "name": "泰山",
-      "phone": "",
-      "bio": ""
-    }
+    { "id": "chengzi", "name": "橙子", "phone": "", "bio": "" },
+    { "id": "mzx", "name": "不熟", "phone": "", "bio": "" },
+    { "id": "taishan", "name": "泰山", "phone": "", "bio": "" }
   ],
   "chats": [
     {
@@ -70,7 +105,8 @@
       "participants": ["owner", "chengzi"],
       "messages": [
         { "id": "c1", "body": "我去闺蜜咋又开学了啊", "senderId": "chengzi" },
-        { "id": "c2", "body": "鬼鬼开学你就能见到我了你不开心吗？", "senderId": "owner" }
+        { "id": "c2", "body": "鬼鬼开学你就能见到我了你不开心吗？", "senderId": "owner" },
+        { "id": "c3", "body": "其实我也有点……", "senderId": "owner" }
       ]
     },
     {
@@ -79,11 +115,12 @@
       "title": "不熟",
       "participants": ["owner", "mzx"],
       "messages": [
-        { "id": "m1", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" }
+        { "id": "m1", "body": "分手的话我就去死", "senderId": "mzx" },
+        { "id": "m2", "body": "随你", "senderId": "owner" }
       ]
     },
     {
-      "id": "chat-taishan-kkt",
+      "id": "test-chat-kakao",
       "app": "kakao",
       "title": "韩泰山",
       "participants": ["owner", "taishan"],
@@ -93,27 +130,60 @@
     }
   ],
   "content": {
-    "wechat": [
-      { "id": "w1", "title": "系统", "body": "我靠手滑了。", "sender": "系统", "kind": "text", "meta": {} }
-    ],
+    "phone": [],
+    "contacts": [],
+    "photos": [],
+    "camera": [],
+    "safari": [],
     "notes": [
-      { "id": "n1", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！", "sender": "小蛙", "kind": "text", "meta": {} }
+      { "id": "note-1", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！", "sender": "小蛙", "kind": "text", "meta": {} }
     ],
-    "alipay": [
-      { "id": "a1", "title": "明宰铉", "body": "向你转账 10000.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} }
-    ],
-    "instagram": [
-      { "id": "i1", "title": "ttteasan", "body": "[照片] [照片] [照片]", "sender": "ttteasan", "kind": "text", "meta": {} }
-    ],
+    "calendar": [],
+    "mail": [],
+    "clock": [],
+    "reminders": [],
+    "files": [],
+    "music": [],
+    "maps": [],
+    "weather": [],
+    "wallet": [],
+    "health": [],
+    "find": [],
+    "calculator": [],
+    "settings": [],
     "weibo": [
-      { "id": "wb1", "title": "搜索ttteasan", "body": "找到了 ttteasan 的微博账号！", "sender": "微博", "kind": "text", "meta": {} }
+      { "id": "wb1", "title": "搜索ttteasan", "body": "找到了账号，但不能点关注。", "sender": "微博", "kind": "text", "meta": {} }
     ],
     "redbook": [
-      { "id": "rb1", "title": "搜索ttteasan", "body": "找到了 ttteasan 的小红书账号！", "sender": "小红书", "kind": "text", "meta": {} }
+      { "id": "rb1", "title": "搜索ttteasan", "body": "找到了账号，还是不能点关注。", "sender": "小红书", "kind": "text", "meta": {} }
     ],
-    "bilibili": [
-      { "id": "bl1", "title": "搜索ttteasan", "body": "找到了 ttteasan 的B站账号！\n❗️系统强制自动关注成功！", "sender": "B站", "kind": "text", "meta": {} }
-    ]
+    "douyin": [
+      { "id": "dy1", "title": "搜索ttteasan", "body": "❗️系统强制：自动关注成功！", "sender": "抖音", "kind": "text", "meta": {} }
+    ],
+    "bilibili": [],
+    "alipay": [
+      { "id": "ali-1", "title": "明宰铉", "body": "向你转账 10000.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} }
+    ],
+    "taobao": [],
+    "netease": [],
+    "delivery": [],
+    "forum": [],
+    "instagram": [
+      { "id": "ig-1", "title": "ttteasan", "body": "[照片] [照片] [照片]", "sender": "ttteasan", "kind": "text", "meta": {} }
+    ],
+    "tiktok": [],
+    "twitter": [],
+    "youtube": [],
+    "snapchat": [],
+    "facebook": [],
+    "reddit": [],
+    "spotify": [],
+    "netflix": [],
+    "pinterest": [],
+    "threads": [
+      { "id": "test-threads-message-1", "title": "测试会话1", "body": "这是一条测试消息。", "sender": "测试联系人1", "folder": "私信" }
+    ],
+    "appstore": []
   },
   "variables": {},
   "events": [],
