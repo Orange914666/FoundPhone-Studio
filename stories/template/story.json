@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "小蛙的手机",
   "description": "小蛙的专属故事",
-  "revision": 220,
+  "revision": 300,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
@@ -41,7 +41,10 @@
     { "id": "chengzi", "name": "橙子", "phone": "", "bio": "" },
     { "id": "lihan", "name": "李涵", "phone": "", "bio": "" },
     { "id": "mzx", "name": "不熟", "phone": "", "bio": "" },
-    { "id": "taishan", "name": "韩泰山", "phone": "", "bio": "" }
+    { "id": "taishan", "name": "韩泰山", "phone": "", "bio": "" },
+    { "id": "yunhe", "name": "金云鹤", "phone": "", "bio": "" },
+    { "id": "taluo", "name": "塔罗🔮🍊", "phone": "", "bio": "" },
+    { "id": "wuhuarou", "name": "五花肉", "phone": "", "bio": "" }
   ],
   "chats": [
     {
@@ -69,7 +72,21 @@
         { "id": "c17", "body": "没看", "senderId": "owner" },
         { "id": "c18", "body": "谁想看他啊", "senderId": "owner" },
         { "id": "c19", "body": "闺蜜生日快乐！！！！！！！！最爱你了", "senderId": "owner" },
-        { "id": "c20", "body": "我也是闺蜜爱你老闺白天见", "senderId": "chengzi" }
+        { "id": "c20", "body": "我也是闺蜜爱你老闺白天见", "senderId": "chengzi" },
+        { "id": "c21", "body": "闺蜜我不行了\n我找到我跨市的ig了\n然后我顺藤摸瓜也找到别的软件了\n结果我手滑关注了\n他这波不耐烦了", "senderId": "owner" },
+        { "id": "c22", "body": "我草闺蜜笑死我了\n我是对面我也不耐烦我是你我也视奸", "senderId": "chengzi" },
+        { "id": "c23", "body": "闺蜜……", "senderId": "owner" },
+        { "id": "c24", "body": "低调", "senderId": "chengzi" },
+        { "id": "c25", "body": "你咋做到的", "senderId": "owner" },
+        { "id": "c26", "body": "额那你就别管了", "senderId": "chengzi" },
+        { "id": "c27", "body": "闺蜜你告诉我你到底怎么得到他的kkt的", "senderId": "owner" },
+        { "id": "c28", "body": "额就是问了个人", "senderId": "chengzi" },
+        { "id": "c29", "body": "你是不是疯了？", "senderId": "owner" },
+        { "id": "c30", "body": "？", "senderId": "chengzi" },
+        { "id": "c31", "body": "我真没想到你居然去找他了\n你难道不知道我俩已经打算老死不相往来了吗", "senderId": "owner" },
+        { "id": "c32", "body": "你俩啥时候打算老死不相往来了？", "senderId": "chengzi" },
+        { "id": "c33", "body": "算了\n这样是不是很好玩", "senderId": "owner" },
+        { "id": "c34", "body": "到底咋了？", "senderId": "chengzi" }
       ]
     },
     {
@@ -88,7 +105,26 @@
         { "id": "l8", "body": "嗯", "senderId": "owner" },
         { "id": "l9", "body": "祝她生日快乐", "senderId": "lihan" },
         { "id": "l10", "body": "你不自己说？", "senderId": "owner" },
-        { "id": "l11", "body": "和她没微信", "senderId": "lihan" }
+        { "id": "l11", "body": "和她没微信", "senderId": "lihan" },
+        { "id": "l12", "body": "好无聊", "senderId": "owner" },
+        { "id": "l13", "body": "那就写作业啊", "senderId": "lihan" },
+        { "id": "l14", "body": "那我还不如发呆", "senderId": "owner" },
+        { "id": "l15", "body": "那你想干嘛", "senderId": "lihan" },
+        { "id": "l16", "body": "就是…那个黑头发帅帅的身材很好的那个", "senderId": "owner" },
+        { "id": "l17", "body": "……", "senderId": "lihan" },
+        { "id": "l18", "body": "韩泰山？", "senderId": "lihan" },
+        { "id": "l19", "body": "我不知道啊", "senderId": "owner" },
+        { "id": "l20", "body": "ttteasan\n这是他ig名称", "senderId": "lihan" },
+        { "id": "l21", "body": "感谢老铁", "senderId": "owner" },
+        { "id": "l22", "body": "就是他！", "senderId": "owner" },
+        { "id": "l23", "body": "这么快？", "senderId": "lihan" },
+        { "id": "l24", "body": "甭管", "senderId": "owner" },
+        { "id": "l25", "body": "……", "senderId": "lihan" },
+        { "id": "l26", "body": "没别的事了？", "senderId": "lihan" },
+        { "id": "l27", "body": "他人怎么样？", "senderId": "owner" },
+        { "id": "l28", "body": "这我还真不清楚\n还没怎么聊过天", "senderId": "lihan" },
+        { "id": "l29", "body": "你难道？", "senderId": "lihan" },
+        { "id": "l30", "body": "有点。", "senderId": "owner" }
       ]
     },
     {
@@ -97,33 +133,69 @@
       "title": "不熟",
       "participants": ["owner", "mzx"],
       "messages": [
-        { "id": "m1", "body": "生日快乐", "senderId": "mzx" },
-        { "id": "m2", "body": "谢谢呀～", "senderId": "owner" },
-        { "id": "m3", "body": "今天可以出来么？小寿星", "senderId": "mzx" },
+        { "id": "m1", "body": "生日快乐", "senderId": "mzx", "time": "2025-06-26 00:00" },
+        { "id": "m2", "body": "谢谢呀～", "senderId": "owner", "time": "2025-06-26 08:00" },
+        { "id": "m3", "body": "今天可以出来么？小寿星", "senderId": "mzx", "time": "2025-06-26 09:00" },
         { "id": "m4", "body": "请你吃饭好不好", "senderId": "mzx" },
         { "id": "m5", "body": "给你买蛋糕", "senderId": "mzx" },
         { "id": "m6", "body": "顺便……还有话对你说", "senderId": "mzx" },
         { "id": "m7", "body": "可以的 不过中午要和家长吃饭 晚上可以吗", "senderId": "owner" },
         { "id": "m8", "body": "好", "senderId": "mzx" },
-        { "id": "m9", "body": "谢谢你 送我回家 花很漂亮", "senderId": "owner" },
+        { "id": "m9", "body": "谢谢你 送我回家 花很漂亮", "senderId": "owner", "time": "2025-06-26 20:01" },
         { "id": "m10", "body": "不客气 我爱你^^", "senderId": "mzx" },
         { "id": "m11", "body": "呀……太快了吧", "senderId": "owner" },
         { "id": "m12", "body": "好可爱……得快点熟悉一下啊～", "senderId": "mzx" },
-        { "id": "m13", "body": "我还没说明白吗？", "senderId": "owner" },
-        { "id": "m14", "body": "那我说的你难道也没明白吗？", "senderId": "mzx" },
-        { "id": "m15", "body": "我说不分", "senderId": "mzx" },
-        { "id": "m16", "body": "你说的算吗？", "senderId": "owner" },
-        { "id": "m17", "body": "分手一个人决定就好了", "senderId": "owner" },
-        { "id": "m18", "body": "你太自私了", "senderId": "mzx" },
-        { "id": "m19", "body": "随便吧", "senderId": "owner" },
-        { "id": "m20", "body": "分手的话我就去死", "senderId": "mzx" },
-        { "id": "m21", "body": "随你", "senderId": "owner" },
-        { "id": "m22", "body": "复合", "senderId": "mzx" },
-        { "id": "m23", "body": "居然没死？", "senderId": "owner" },
-        { "id": "m24", "body": "复合", "senderId": "mzx" },
-        { "id": "m25", "body": "复合", "senderId": "mzx" },
-        { "id": "m26", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" },
-        { "id": "m27", "body": "你选啥社团？", "senderId": "mzx" }
+        { "id": "m13", "body": "我还没说明白吗？", "senderId": "owner", "time": "2026-04-20 19:00" },
+        { "id": "m14", "body": "那我说的你难道也没明白吗？\n我说不分", "senderId": "mzx" },
+        { "id": "m15", "body": "你说的算吗？\n分手一个人决定就好了", "senderId": "owner" },
+        { "id": "m16", "body": "你太自私了", "senderId": "mzx" },
+        { "id": "m17", "body": "随便吧", "senderId": "owner" },
+        { "id": "m18", "body": "分手的话我就去死", "senderId": "mzx" },
+        { "id": "m19", "body": "随你", "senderId": "owner" },
+        { "id": "m20", "body": "复合", "senderId": "mzx", "time": "2026-04-21 08:00" },
+        { "id": "m21", "body": "居然没死？", "senderId": "owner" },
+        { "id": "m22", "body": "这么想让我死？", "senderId": "mzx" },
+        { "id": "m23", "body": "复合", "senderId": "mzx", "time": "2026-04-22 12:00" },
+        { "id": "m24", "body": "复合", "senderId": "mzx", "time": "2026-04-23 12:00" },
+        { "id": "m25", "body": "复合", "senderId": "mzx", "time": "2026-05-20 12:00" },
+        { "id": "m26", "body": "复合", "senderId": "mzx", "time": "2026-06-01 12:00" },
+        { "id": "m27", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx", "time": "2026-09-01 16:30" },
+        { "id": "m28", "body": "你选啥社团？", "senderId": "mzx", "time": "2026-09-10 12:00" },
+        { "id": "m29", "body": "你喜欢韩泰山？", "senderId": "mzx" },
+        { "id": "m30", "body": "我没说啊", "senderId": "owner" },
+        { "id": "m31", "body": "那你找他那么多社交账号干什么？", "senderId": "mzx" },
+        { "id": "m32", "body": "你怎么知道？", "senderId": "owner" },
+        { "id": "m33", "body": "你还加上他的kkt了", "senderId": "mzx" },
+        { "id": "m34", "body": "很有意思呢", "senderId": "mzx" },
+        { "id": "m35", "body": "你是不是生气了？", "senderId": "mzx" },
+        { "id": "m36", "body": "看支付宝", "senderId": "mzx" },
+        { "id": "m37", "body": "我到家了", "senderId": "owner" },
+        { "id": "m38", "body": "我也是", "senderId": "mzx" },
+        { "id": "m39", "body": "今天我表现的怎么样？", "senderId": "mzx" },
+        { "id": "m40", "body": "不错", "senderId": "owner" },
+        { "id": "m41", "body": "我感觉你的眼神根本就没有分给我一半", "senderId": "mzx" },
+        { "id": "m42", "body": "一直在看泰山呢", "senderId": "mzx" },
+        { "id": "m43", "body": "你不爱我吧其实", "senderId": "mzx" },
+        { "id": "m44", "body": "我对你太宽容了吗", "senderId": "mzx" },
+        { "id": "m45", "body": "只爱我不好吗", "senderId": "mzx" },
+        { "id": "m46", "body": "啊好生气", "senderId": "mzx" },
+        { "id": "m47", "body": "你把韩泰山删了", "senderId": "owner" },
+        { "id": "m48", "body": "你不是看到了么？", "senderId": "mzx" },
+        { "id": "m49", "body": "主要是那些不必要的人也不用留着", "senderId": "mzx" },
+        { "id": "m50", "body": "这种事情要提前和我说吧", "senderId": "owner" },
+        { "id": "m51", "body": "一言不合就删掉了", "senderId": "owner" },
+        { "id": "m52", "body": "以后见面怎么办？", "senderId": "owner" },
+        { "id": "m53", "body": "你还要和他见面？", "senderId": "mzx" },
+        { "id": "m54", "body": "跟这些男的社交干什么？", "senderId": "mzx" },
+        { "id": "m55", "body": "我不接受", "senderId": "mzx" },
+        { "id": "m56", "body": "你的世界就应该围着我转啊", "senderId": "mzx" },
+        { "id": "m57", "body": "我爱你", "senderId": "mzx" },
+        { "id": "m58", "body": "所以你就应该爱我啊", "senderId": "mzx" },
+        { "id": "m59", "body": "这样才公平啊", "senderId": "mzx" },
+        { "id": "m60", "body": "我谈恋爱就是找狗", "senderId": "owner" },
+        { "id": "m61", "body": "我和狗谈什么公平", "senderId": "owner" },
+        { "id": "m62", "body": "我他妈也没说我不是狗啊", "senderId": "mzx" },
+        { "id": "m63", "body": "你必须爱我", "senderId": "mzx" }
       ]
     },
     {
@@ -147,7 +219,19 @@
         { "id": "t13", "body": "别听他瞎说", "senderId": "owner" },
         { "id": "t14", "body": "还有 别和他走太近", "senderId": "owner" },
         { "id": "t15", "body": "人品不行", "senderId": "owner" },
-        { "id": "t16", "body": "是吗？", "senderId": "taishan" }
+        { "id": "t16", "body": "是吗？", "senderId": "taishan" },
+        { "id": "t17", "body": "今天很棒！！", "senderId": "owner" },
+        { "id": "t18", "body": "谢谢", "senderId": "taishan" },
+        { "id": "t19", "body": "你也很漂亮", "senderId": "taishan" },
+        { "id": "t20", "body": "我好像没有说你长得帅吧", "senderId": "owner" },
+        { "id": "t21", "body": "^^", "senderId": "taishan" },
+        { "id": "t22", "body": "好", "senderId": "taishan" },
+        { "id": "t23", "body": "不过 是和宰铉在一起了么", "senderId": "taishan" },
+        { "id": "t24", "body": "嗯……", "senderId": "owner" },
+        { "id": "t25", "body": "我知道了", "senderId": "taishan" },
+        { "id": "t26", "body": "宝宝", "senderId": "taishan" },
+        { "id": "t27", "body": "我永远爱你啊", "senderId": "taishan" },
+        { "id": "t28", "body": "我们永远不会分开的", "senderId": "taishan" }
       ]
     }
   ],
@@ -158,8 +242,10 @@
     "camera": [],
     "safari": [],
     "notes": [
-      { "id": "note-1", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！我怎么办，我该怎么办，嗯先顺着他吧，别再惹他不开心了……", "sender": "小蛙", "kind": "text", "meta": {} },
-      { "id": "note-2", "title": "无标题", "body": "你逃不掉的", "sender": "小蛙", "kind": "text", "meta": {} }
+      { "id": "note-1", "title": "无标题", "body": "还是和他复合了……感觉再不复合他就要把我身边人都骚扰一遍了，还有我不想因为他坏了我和韩泰山的事，但是我怎么感觉有点不对劲呢", "sender": "小蛙", "kind": "text", "meta": {} },
+      { "id": "note-2", "title": "无标题", "body": "你逃不掉的", "sender": "小蛙", "kind": "text", "meta": {} },
+      { "id": "note-3", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！我怎么办，我该怎么办，嗯先顺着他吧，别再惹他不开心了……", "sender": "小蛙", "kind": "text", "meta": {} },
+      { "id": "note-4", "title": "无标题", "body": "好可怕好可怕简直是疯狗……我好想和他分手 我真的受不了了别缠着我别缠着我别缠着我", "sender": "小蛙", "kind": "text", "meta": {} }
     ],
     "calendar": [],
     "mail": [],
@@ -174,18 +260,27 @@
     "find": [],
     "calculator": [],
     "settings": [],
-    "weibo": [],
-    "redbook": [],
-    "douyin": [],
+    "weibo": [
+      { "id": "wb-1", "title": "ttteasan", "body": "哎呀，手滑点到了关注！", "sender": "ttteasan", "kind": "text", "meta": {} }
+    ],
+    "redbook": [
+      { "id": "rb-1", "title": "ttteasan", "body": "找到了账号，还是不能点关注。", "sender": "ttteasan", "kind": "text", "meta": {} }
+    ],
+    "douyin": [
+      { "id": "dy-1", "title": "ttteasan", "body": "找到了账号，但不能点关注。", "sender": "ttteasan", "kind": "text", "meta": {} }
+    ],
     "bilibili": [],
     "alipay": [
-      { "id": "ali-1", "title": "明宰铉", "body": "向你转账 10000.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} }
+      { "id": "ali-1", "title": "明宰铉", "body": "向你转账 10000.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} },
+      { "id": "ali-2", "title": "明宰铉", "body": "向你转账 5200.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} }
     ],
     "taobao": [],
     "netease": [],
     "delivery": [],
     "forum": [],
-    "instagram": [],
+    "instagram": [
+      { "id": "ig-1", "title": "ttteasan", "body": "[照片]\nLeehan 评论：到底要钓出怎样的人生", "sender": "ttteasan", "kind": "text", "meta": {} }
+    ],
     "tiktok": [],
     "twitter": [],
     "youtube": [],
@@ -198,6 +293,16 @@
     "threads": [],
     "appstore": []
   },
+  "interactions": [
+    {
+      "id": "reply-chengzi-1",
+      "conversationId": "chat-chengzi",
+      "condition": "true",
+      "options": [
+        { "label": "闺蜜我不行了", "value": "闺蜜我不行了" }
+      ]
+    }
+  ],
   "variables": {},
   "events": [],
   "tests": []
