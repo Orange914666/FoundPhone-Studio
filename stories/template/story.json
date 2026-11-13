@@ -1,9 +1,9 @@
 {
   "scriptVersion": 1,
-  "id": "xiaowa-ultimate-final",
+  "id": "xiaowa-ultimate-v3",
   "title": "小蛙的手机",
-  "description": "送给小蛙的专属互动故事",
-  "revision": 200,
+  "description": "剧情测试版",
+  "revision": 201,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
@@ -14,32 +14,6 @@
   },
   "installedApps": [
     "appstore",
-    "phone",
-    "messages",
-    "contacts",
-    "photos",
-    "safari",
-    "notes",
-    "calendar",
-    "mail",
-    "clock",
-    "reminders",
-    "files",
-    "music",
-    "maps",
-    "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
-    "settings",
-    "weibo",
-    "redbook",
-    "douyin",
-    "bilibili",
-    "alipay",
-    "instagram",
-    "kakao",
     {
       "id": "wechat",
       "name": "微信",
@@ -48,16 +22,25 @@
       "dock": true,
       "folder": "",
       "icon": ""
-    }
+    },
+    "messages",
+    "contacts",
+    "photos",
+    "safari",
+    "notes",
+    "settings",
+    "weibo",
+    "redbook",
+    "douyin",
+    "alipay",
+    "instagram",
+    "kakao"
   ],
   "contacts": [
     { "id": "chengzi", "name": "橙子", "phone": "", "bio": "" },
     { "id": "lihan", "name": "李涵", "phone": "", "bio": "" },
     { "id": "mzx", "name": "明宰铉", "phone": "", "bio": "" },
-    { "id": "taishan", "name": "泰山", "phone": "", "bio": "" },
-    { "id": "yunhe", "name": "金云鹤", "phone": "", "bio": "" },
-    { "id": "taluo", "name": "塔罗🔮🍊", "phone": "", "bio": "" },
-    { "id": "wuhuarou", "name": "五花肉", "phone": "", "bio": "" }
+    { "id": "taishan", "name": "韩泰山", "phone": "", "bio": "" }
   ],
   "chats": [
     {
@@ -77,47 +60,7 @@
         { "id": "c9", "body": "老师调座位\nMzx\n成我同桌了", "senderId": "owner" },
         { "id": "c10", "body": "我靠笑死我了呀\n两个月不见他有没有啥变化", "senderId": "chengzi" },
         { "id": "c11", "body": "闺蜜生日快乐！！！！！！！！最爱你了", "senderId": "owner" },
-        { "id": "c12", "body": "我也是闺蜜爱你老闺白天见", "senderId": "chengzi" },
-        { "id": "c13", "body": "闺蜜我不行了\n我找到我跨市的ig了\n然后我顺藤摸瓜也找到别的软件了\n结果我手滑关注了\n他这波不耐烦了", "senderId": "owner" },
-        { "id": "c14", "body": "我草闺蜜笑死我了\n我是对面我也不耐烦我是你我也视奸", "senderId": "chengzi" },
-        { "id": "c15", "body": "闺蜜……\n橙子：低调", "senderId": "owner" },
-        { "id": "c16", "body": "你咋做到的", "senderId": "owner" },
-        { "id": "c17", "body": "额那你就别管了", "senderId": "chengzi" }
-      ]
-    },
-    {
-      "id": "chat-lihan",
-      "app": "wechat",
-      "title": "李涵",
-      "participants": ["owner", "lihan"],
-      "messages": [
-        { "id": "l1", "body": "放学来我家吃饭 你妈妈打电话说的", "senderId": "lihan" },
-        { "id": "l2", "body": "嗯好", "senderId": "owner" },
-        { "id": "l3", "body": "今天不了 橙子生日", "senderId": "owner" },
-        { "id": "l4", "body": "嗯 帮我祝她生日快乐", "senderId": "lihan" },
-        { "id": "l5", "body": "放学来吃饭？", "senderId": "lihan" },
-        { "id": "l6", "body": "嗯", "senderId": "owner" },
-        { "id": "l7", "body": "？", "senderId": "lihan" },
-        { "id": "l8", "body": "嗯", "senderId": "owner" },
-        { "id": "l9", "body": "祝她生日快乐", "senderId": "lihan" },
-        { "id": "l10", "body": "你不自己说？", "senderId": "owner" },
-        { "id": "l11", "body": "和她没微信", "senderId": "lihan" },
-        { "id": "l12", "body": "好无聊", "senderId": "owner" },
-        { "id": "l13", "body": "那就写作业啊", "senderId": "lihan" },
-        { "id": "l14", "body": "那我还不如发呆", "senderId": "owner" },
-        { "id": "l15", "body": "那你想干嘛", "senderId": "lihan" },
-        { "id": "l16", "body": "就是…那个黑头发帅帅的身材很好的那个", "senderId": "owner" },
-        { "id": "l17", "body": "……\n韩泰山？", "senderId": "lihan" },
-        { "id": "l18", "body": "我不知道啊", "senderId": "owner" },
-        { "id": "l19", "body": "ttteasan\n这是他ig名称", "senderId": "lihan" },
-        { "id": "l20", "body": "感谢老铁", "senderId": "owner" },
-        { "id": "l21", "body": "就是他！", "senderId": "owner" },
-        { "id": "l22", "body": "这么快？", "senderId": "lihan" },
-        { "id": "l23", "body": "甭管", "senderId": "owner" },
-        { "id": "l24", "body": "……\n没别的事了？", "senderId": "lihan" },
-        { "id": "l25", "body": "他人怎么样？", "senderId": "owner" },
-        { "id": "l26", "body": "这我还真不清楚\n还没怎么聊过天\n你难道？", "senderId": "lihan" },
-        { "id": "l27", "body": "有点。", "senderId": "owner" }
+        { "id": "c12", "body": "我也是闺蜜爱你老闺白天见", "senderId": "chengzi" }
       ]
     },
     {
@@ -137,159 +80,22 @@
         { "id": "m9", "body": "随你", "senderId": "owner" },
         { "id": "m10", "body": "复合", "senderId": "mzx" },
         { "id": "m11", "body": "居然没死？", "senderId": "owner" },
-        { "id": "m12", "body": "复合", "senderId": "mzx" },
-        { "id": "m13", "body": "复合", "senderId": "mzx" },
-        { "id": "m14", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" },
-        { "id": "m15", "body": "你选啥社团？", "senderId": "mzx" },
-        { "id": "m16", "body": "你喜欢韩泰山？", "senderId": "mzx" },
-        { "id": "m17", "body": "我没说啊", "senderId": "owner" },
-        { "id": "m18", "body": "那你找他那么多社交账号干什么？", "senderId": "mzx" },
-        { "id": "m19", "body": "你怎么知道？", "senderId": "owner" },
-        { "id": "m20", "body": "你还加上他的kkt了", "senderId": "mzx" },
-        { "id": "m21", "body": "很有意思呢\n你是不是生气了？\n看支付宝", "senderId": "mzx" },
-        { "id": "m22", "body": "我到家了", "senderId": "owner" },
-        { "id": "m23", "body": "我也是\n今天我表现的怎么样？", "senderId": "mzx" },
-        { "id": "m24", "body": "不错", "senderId": "owner" },
-        { "id": "m25", "body": "我感觉你的眼神根本就没有分给我一半\n一直在看泰山呢\n你不爱我吧其实\n我对你太宽容了吗\n只爱我不好吗\n啊好生气", "senderId": "mzx" },
-        { "id": "m26", "body": "你把韩泰山删了", "senderId": "owner" },
-        { "id": "m27", "body": "你不是看到了么？\n主要是那些不必要的人也不用留着", "senderId": "mzx" },
-        { "id": "m28", "body": "这种事情要提前和我说吧\n一言不合就删掉了\n以后见面怎么办？", "senderId": "owner" },
-        { "id": "m29", "body": "你还要和他见面？\n跟这些男的社交干什么？\n我不接受\n你的世界就应该围着我转啊\n我爱你\n所以你就应该爱我啊\n这样才公平啊", "senderId": "mzx" },
-        { "id": "m30", "body": "我谈恋爱就是找狗\n我和狗谈什么公平", "senderId": "owner" },
-        { "id": "m31", "body": "我他妈也没说我不是狗啊\n你必须爱我", "senderId": "mzx" }
+        { "id": "m12", "body": "现在我们是同桌了还要装不熟吗？", "senderId": "mzx" }
       ]
     },
     {
-      "id": "chat-taishan-kkt",
+      "id": "chat-taishan",
       "app": "kakao",
       "title": "韩泰山",
       "participants": ["owner", "taishan"],
       "messages": [
         { "id": "t1", "body": "在吗\n周五下午六点来我们社团", "senderId": "taishan" },
-        { "id": "t2", "body": "好ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧", "senderId": "owner" },
-        { "id": "t3", "body": "可以带着你闺蜜", "senderId": "taishan" },
-        { "id": "t4", "body": "啊…算了吧", "senderId": "owner" },
-        { "id": "t5", "body": "怎么了\n闹矛盾了？", "senderId": "taishan" },
-        { "id": "t6", "body": "有点", "senderId": "owner" },
-        { "id": "t7", "body": "等我一下", "senderId": "taishan" },
-        { "id": "t8", "body": "你和他……不是挺好的么？", "senderId": "taishan" },
-        { "id": "t9", "body": "他自己说的吗", "senderId": "owner" },
-        { "id": "t10", "body": "嗯嗯", "senderId": "taishan" },
-        { "id": "t11", "body": "别听他瞎说\n还有 别和他走太近\n人品不行", "senderId": "owner" },
-        { "id": "t12", "body": "是吗？", "senderId": "taishan" },
-        { "id": "t13", "body": "今天很棒！！", "senderId": "owner" },
-        { "id": "t14", "body": "谢谢\n你也很漂亮", "senderId": "taishan" },
-        { "id": "t15", "body": "我好像没有说你长得帅吧", "senderId": "owner" },
-        { "id": "t16", "body": "^^\n好\n不过 是和宰铉在一起了么", "senderId": "taishan" },
-        { "id": "t17", "body": "嗯……", "senderId": "owner" },
-        { "id": "t18", "body": "我知道了", "senderId": "taishan" },
-        { "id": "t19", "body": "宝宝\n我永远爱你啊\n我们永远不会分开的", "senderId": "taishan" }
-      ]
-    },
-    {
-      "id": "chat-wuhuarou-group",
-      "app": "wechat",
-      "title": "一家人",
-      "participants": ["owner", "taishan", "wuhuarou"],
-      "messages": [
-        { "id": "g1", "body": "亲子鉴定结果出来了\n我们是他的亲生父母", "senderId": "taishan" },
-        { "id": "g2", "body": "我草那怎么办？", "senderId": "owner" },
-        { "id": "g3", "body": "宝宝本来就是爸爸妈妈生的呀\n爸爸妈妈不要吵架了好不好", "senderId": "wuhuarou" },
-        { "id": "g4", "body": "我们吵架了吗", "senderId": "taishan" },
-        { "id": "g5", "body": "嗯妈妈还说要去姥姥家不回来了\n爸爸妈妈你们还爱宝宝吗？", "senderId": "wuhuarou" },
-        { "id": "g6", "body": "爱。", "senderId": "owner" },
-        { "id": "g7", "body": "嗯", "senderId": "taishan" },
-        { "id": "g8", "body": "爸爸好高冷\n爸爸你平时不这样啊\n你平时会一直粘着妈妈然后一直亲亲妈妈还一直说爱妈妈\n还说爱宝宝\n还老说宝宝和你抢妈妈\n还说要给宝宝生个妹妹陪宝宝", "senderId": "wuhuarou" },
-        { "id": "g9", "body": "好了好了好了", "senderId": "owner" },
-        { "id": "g10", "body": "你们肯定是爱彼此的对不对\n你们说过不爱的话是没有五花肉的", "senderId": "wuhuarou" }
-      ]
-    },
-    {
-      "id": "chat-taluo-ig",
-      "app": "instagram",
-      "title": "塔罗🔮🍊",
-      "participants": ["owner", "taluo"],
-      "messages": [
-        { "id": "tu1", "body": "您好\n关注我是想了解一下什么呢？", "senderId": "taluo" },
-        { "id": "tu2", "body": "您好您好\n我感觉这段时间记忆有点混乱\n而且总感觉自己忘了点什么", "senderId": "owner" },
-        { "id": "tu3", "body": "所以？\n想让我帮你看看是不是有什么东西被你遗忘了？", "senderId": "taluo" },
-        { "id": "tu4", "body": "是的……\n可以做到吗", "senderId": "owner" },
-        { "id": "tu5", "body": "当然了\n具体您是觉得哪方面有点混乱呢", "senderId": "taluo" },
-        { "id": "tu6", "body": "我不知道啊", "senderId": "owner" },
-        { "id": "tu7", "body": "马上您就知道了\n3\n2\n1", "senderId": "taluo" },
-        { "id": "tu8", "body": "刚刚那是什么！？", "senderId": "owner" },
-        { "id": "tu9", "body": "是……最爱你的人啊", "senderId": "taluo" },
-        { "id": "tu10", "body": "是……最爱你的人啊", "senderId": "taluo" },
-        { "id": "tu11", "body": "是……最爱你的人啊", "senderId": "taluo" },
-        { "id": "tu12", "body": "是……最爱你的人啊", "senderId": "taluo" },
-        { "id": "tu13", "body": "是……最爱你的人啊", "senderId": "taluo" }
-      ]
-    },
-    {
-      "id": "chat-yunhe",
-      "app": "wechat",
-      "title": "金云鹤",
-      "participants": ["owner", "yunhe"],
-      "messages": [
-        { "id": "y1", "body": "小蛙 我们明天有演出\n你来不来\n你男朋友现在有事情所以让我问问你", "senderId": "yunhe" },
-        { "id": "y2", "body": "去！", "senderId": "owner" },
-        { "id": "y3", "body": "好 小美说她也来\n你们明天一起来吧", "senderId": "yunhe" },
-        { "id": "y4", "body": "……\n小美是谁？", "senderId": "owner" },
-        { "id": "y5", "body": "啊？我女朋友啊\n你们不是好闺蜜吗", "senderId": "yunhe" },
-        { "id": "y6", "body": "我不认识她啊", "senderId": "owner" },
-        { "id": "y7", "body": "我开玩笑呢", "senderId": "owner" },
-        { "id": "y8", "body": "吓死我了\n你俩要好好的哦\n我现在和泰山哥也特别好\n有时间我们四个可以一起出去玩", "senderId": "yunhe" },
-        { "id": "y9", "body": "好。", "senderId": "owner" }
+        { "id": "t2", "body": "好ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧", "senderId": "owner" }
       ]
     }
   ],
   "content": {
-    "messages": [
-      { "id": "msg-1", "title": "系统通知", "body": "到底要不要去看演出呢？去和橙子说说吧！", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-2", "title": "系统通知", "body": "恭喜您 三天后会和闺蜜橙子一起去看演出", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-3", "title": "系统通知", "body": "知道自己跨市的ig了……不够不够！", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-4", "title": "系统通知", "body": "我靠手滑了。", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-5", "title": "系统通知", "body": "去问问橙子怎么做到的", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-6", "title": "系统通知", "body": "周五看完演出到家了 先找谁聊聊呢？", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-7", "title": "系统通知", "body": "作者建议你去和明宰铉分手哦/.", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-8", "title": "系统通知", "body": "好像一直都误会了一个人呢……", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-9", "title": "系统通知", "body": "恭喜解锁养娃副本🎉", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-10", "title": "系统通知", "body": "不要忘了你闺蜜的幸福呀～", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-11", "title": "系统通知", "body": "恭喜玩家🎉玩到大结局啦～\n番外板块\n现在有以下几个番外可以选择\n①：在天愿作比翼鸟，在地......\n②：额对的对的对的额不对不对不对\n③：你知道的，这个夏天永远不会结束", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-12", "title": "系统通知", "body": "选好后发送1或者2或者3哦", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-13", "title": "系统通知", "body": "番外①已看，接下来想看几号？(2或3)", "sender": "系统", "kind": "text", "meta": {} },
-      { "id": "msg-14", "title": "系统通知", "body": "番外②已看，接下来想看几号？(1或者3)", "sender": "系统", "kind": "text", "meta": {} }
-    ],
-    "notes": [
-      { "id": "note-1", "title": "无标题", "body": "还是和他复合了……感觉再不复合他就要把我身边人都骚扰一遍了，还有我不想因为他坏了我和韩泰山的事，但是我怎么感觉有点不对劲呢", "sender": "小蛙", "kind": "text", "meta": {} },
-      { "id": "note-2", "title": "无标题", "body": "你逃不掉的", "sender": "小蛙", "kind": "text", "meta": {} },
-      { "id": "note-3", "title": "无标题", "body": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！我怎么办，我该怎么办，嗯先顺着他吧，别再惹他不开心了……", "sender": "小蛙", "kind": "text", "meta": {} },
-      { "id": "note-4", "title": "无标题", "body": "好可怕好可怕简直是疯狗……我好想和他分手 我真的受不了了别缠着我别缠着我别缠着我", "sender": "小蛙", "kind": "text", "meta": {} }
-    ],
-    "alipay": [
-      { "id": "ali-1", "title": "明宰铉", "body": "向你转账 10000.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} },
-      { "id": "ali-2", "title": "明宰铉", "body": "向你转账 5200.00 元 (自愿赠与)", "sender": "明宰铉", "kind": "text", "meta": {} }
-    ],
-    "instagram": [
-      { "id": "ig-1", "title": "ttteasan", "body": "[照片]\nLeehan 评论：到底要钓出怎样的人生", "sender": "ttteasan", "kind": "text", "meta": {} }
-    ],
-    "douyin": [
-      { "id": "dy-1", "title": "ttteasan", "body": "找到了账号，但不能点关注。", "sender": "ttteasan", "kind": "text", "meta": {} }
-    ],
-    "redbook": [
-      { "id": "rb-1", "title": "ttteasan", "body": "找到了账号，还是不能点关注。", "sender": "ttteasan", "kind": "text", "meta": {} }
-    ],
-    "weibo": [
-      { "id": "wb-1", "title": "ttteasan", "body": "哎呀，手滑点到了关注！", "sender": "ttteasan", "kind": "text", "meta": {} }
-    ],
-    "calendar": [
-      { "id": "cal-1", "title": "日历", "body": "已新增纪念日：泰山💙", "sender": "日历", "kind": "text", "meta": {} }
-    ],
-    "health": [
-      { "id": "h-1", "title": "健康", "body": "心率上升提醒：108次/分", "sender": "健康", "kind": "text", "meta": {} },
-      { "id": "h-2", "title": "健康", "body": "心率异常提醒：124次/分", "sender": "健康", "kind": "text", "meta": {} },
-      { "id": "h-3", "title": "健康", "body": "心率异常提醒：144次/分", "sender": "健康", "kind": "text", "meta": {} }
-    ]
+    "phone": [], "contacts": [], "photos": [], "camera": [], "safari": [], "notes": [], "calendar": [], "mail": [], "clock": [], "reminders": [], "files": [], "music": [], "maps": [], "weather": [], "wallet": [], "health": [], "find": [], "calculator": [], "settings": [], "weibo": [], "redbook": [], "douyin": [], "bilibili": [], "alipay": [], "taobao": [], "netease": [], "delivery": [], "forum": [], "instagram": [], "tiktok": [], "twitter": [], "youtube": [], "snapchat": [], "facebook": [], "reddit": [], "spotify": [], "netflix": [], "pinterest": [], "threads": [], "appstore": []
   },
   "variables": {},
   "events": [],
