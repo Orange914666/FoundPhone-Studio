@@ -1,9 +1,9 @@
 {
   "scriptVersion": 1,
-  "id": "xiaowa-final-story",
+  "id": "xiaowa-final-story-v5",
   "title": "小蛙的手机",
-  "description": "送给小蛙的专属故事",
-  "revision": 15,
+  "description": "送给小蛙的专属互动故事",
+  "revision": 30,
   "phone": {
     "owner": "小蛙",
     "date": "2026-10-25",
@@ -19,20 +19,21 @@
   },
   "installedApps": [
     "appstore",
-    { "id": "wechat", "name": "微信", "installed": true, "visible": true },
-    { "id": "messages", "name": "短信", "installed": true, "visible": true },
-    { "id": "alipay", "name": "支付宝", "installed": true, "visible": true },
-    { "id": "notes", "name": "备忘录", "installed": true, "visible": true },
-    { "id": "instagram", "name": "Instagram", "installed": true, "visible": true },
-    { "id": "kakaotalk", "name": "KakaoTalk", "installed": true, "visible": true }
+    "settings",
+    { "id": "wechat", "name": "微信", "installed": true, "visible": true, "dock": true, "folder": "" },
+    { "id": "kakaotalk", "name": "KakaoTalk", "installed": true, "visible": true, "dock": true, "folder": "" },
+    { "id": "messages", "name": "短信", "installed": true, "visible": true, "dock": true, "folder": "" },
+    { "id": "alipay", "name": "支付宝", "installed": true, "visible": true, "dock": false, "folder": "" },
+    { "id": "notes", "name": "备忘录", "installed": true, "visible": true, "dock": false, "folder": "" },
+    { "id": "instagram", "name": "Instagram", "installed": true, "visible": true, "dock": false, "folder": "" }
   ],
   "characters": [
-    { "id": "me", "name": "小蛙" },
-    { "id": "chengzi", "name": "橙子" },
-    { "id": "lihan", "name": "李涵" },
-    { "id": "mzx", "name": "明宰铉" },
-    { "id": "taishan", "name": "泰山" },
-    { "id": "wuhuarou", "name": "五花肉" }
+    { "id": "me", "name": "小蛙", "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Xiaowa" },
+    { "id": "chengzi", "name": "橙子", "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Chengzi" },
+    { "id": "lihan", "name": "李涵", "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Lihan" },
+    { "id": "mzx", "name": "明宰铉", "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Mzx" },
+    { "id": "taishan", "name": "泰山", "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Taishan" },
+    { "id": "wuhuarou", "name": "五花肉", "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Baby" }
   ],
   "apps": {
     "wechat": {
@@ -62,12 +63,13 @@
         },
         {
           "id": "chat_mzx",
-          "name": "明宰铉",
+          "name": "不熟",
           "messages": [
             { "from": "mzx", "text": "生日快乐", "time": "2025-06-26 00:00" },
             { "from": "me", "text": "谢谢呀～", "time": "2025-06-26 08:00" },
             { "from": "mzx", "text": "分手的话我就去死", "time": "2026-04-20 19:08" },
             { "from": "me", "text": "随你", "time": "2026-04-20 19:10" },
+            { "from": "mzx", "text": "复合", "time": "2026-04-21 08:00" },
             { "from": "mzx", "text": "现在我们是同桌了还要装不熟吗？", "time": "2026-09-01 16:30" }
           ]
         },
@@ -77,13 +79,20 @@
           "messages": [
             { "from": "taishan", "text": "亲子鉴定结果出来了\n我们是他的亲生父母", "time": "2026-10-26 12:00" },
             { "from": "me", "text": "我草那怎么办？", "time": "2026-10-26 12:01" },
-            { "from": "wuhuarou", "text": "宝宝本来就是爸爸妈妈生的呀", "time": "2026-10-26 12:02" }
+            { "from": "wuhuarou", "text": "宝宝本来就是爸爸妈妈生的呀\n爸爸妈妈不要吵架了好不好", "time": "2026-10-26 12:02" },
+            { "from": "taishan", "text": "我们吵架了吗", "time": "2026-10-26 12:03" },
+            { "from": "wuhuarou", "text": "妈妈还说要去姥姥家不回来了\n爸爸妈妈你们还爱宝宝吗？", "time": "2026-10-26 12:04" },
+            { "from": "me", "text": "爱。", "time": "2026-10-26 12:05" },
+            { "from": "taishan", "text": "嗯", "time": "2026-10-26 12:06" },
+            { "from": "wuhuarou", "text": "爸爸好高冷\n爸爸你平时不这样啊\n你平时会一直粘着妈妈然后一直亲亲妈妈还一直说爱妈妈\n还说爱宝宝\n还老说宝宝和你抢妈妈\n还说要给宝宝生个妹妹陪宝宝", "time": "2026-10-26 12:07" },
+            { "from": "me", "text": "好了好了好了", "time": "2026-10-26 12:08" },
+            { "from": "wuhuarou", "text": "你们肯定是爱彼此的对不对\n你们说过不爱的话是没有五花肉的", "time": "2026-10-26 12:09" }
           ]
         }
       ],
       "interactions": [
         {
-          "id": "test_reply",
+          "id": "reply_chengzi",
           "conversationId": "chat_chengzi",
           "condition": "true",
           "options": [
@@ -110,7 +119,8 @@
           "id": "alipay_mzx",
           "name": "明宰铉",
           "messages": [
-            { "type": "transfer", "amount": "10000.00", "note": "自愿赠与", "time": "2026-10-25 09:45" }
+            { "type": "transfer", "amount": "10000.00", "note": "自愿赠与", "time": "2026-10-25 09:45" },
+            { "type": "transfer", "amount": "5200.00", "note": "自愿赠与", "time": "2026-10-25 15:00" }
           ]
         }
       ]
@@ -122,6 +132,12 @@
           "title": "无标题",
           "content": "好可怕……原来是明宰铉一直在监视我的手机，甚至还能操控！我怎么办，我该怎么办，嗯先顺着他吧，别再惹他不开心了……",
           "time": "2026-10-25 18:00"
+        },
+        {
+          "id": "note_2",
+          "title": "无标题",
+          "content": "你逃不掉的",
+          "time": "2026-10-25 18:10"
         }
       ]
     }
